@@ -1,6 +1,6 @@
 If you wnats to use this module please follow this steps:
 
-  Compiling the Module:
+  Compiling the Module: \n
   make
   Insert the module into the kernel:
   sudo insmod netstats.ko
