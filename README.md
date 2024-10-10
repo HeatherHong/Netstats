@@ -1,12 +1,9 @@
-If you wnats to use this module please follow this steps:
+# Netstats Kernel Module
 
-  Compiling the Module: \n
-  make
-  Insert the module into the kernel:
-  sudo insmod netstats.ko
-  Check the network statistics:
-  cat /proc/netstats
-  Unload the module:
-  sudo rmmod netstats
-  Clean up the compiled files:
-  make clean
+This guide explains how to compile, insert, and use the Netstats kernel module to check network statistics.
+
+## Steps
+
+1. **Compiling the Module**  
+   ```bash
+   make
